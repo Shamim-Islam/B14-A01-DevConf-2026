@@ -26,13 +26,32 @@
     cursor: pointer;
 }
 
+.outline-btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0D1B2A;
+}
+
 /* Navbar section */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 nav img {
@@ -54,5 +73,149 @@ nav ul li a {
 }
 
 /* Banner (Hero) section */
+
+.banner {
+    min-height: 100vh;
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.0)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 60%;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    color: #d1d5db;
+}
+
+.banner-content button {
+    margin-top: 150px;
+}
+
+/* Speakers section */
+
+.speakers {
+    padding: 60px 0;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.speaker {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.speaker img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.speaker-info {
+    padding: 15px;
+}
+
+.speaker-info p span {
+    color: #3B82F6;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.speaker-info h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.speaker-info p {
+    color: #575757;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* pricing section */
+
+.pricing-header {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.pricing-card {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pricing-card p {
+    color: #888;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.pricing-card h3 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.pricing-card p {
+    color: #575757;
+    font-size: 0.875rem;
+    font-weight: 500;
+} 
+
+.pricing-card hr {
+    margin: 20px 0;
+    border: 1px solid #d1d5db;
+}
+
+.pricing-card ul li {
+    color: #575757;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.pricing-card button {
+    margin-top: 20px;
+}
 
 
