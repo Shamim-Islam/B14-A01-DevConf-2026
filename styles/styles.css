@@ -167,14 +167,17 @@ nav ul li a {
 
 /* pricing section */
 
+.pricing {
+    padding-bottom: 60px;
+}
+
 .pricing-header {
-    padding: 60px 0;
+    padding-bottom: 60px;
     text-align: center;
 }
 
 .pricing-container {
     display: flex;
-    justify-content: space-evenly;
     gap: 30px;
 }
 
@@ -182,12 +185,7 @@ nav ul li a {
     border: 1px solid #d1d5db;
     border-radius: 10px;
     padding: 30px;
-}
-
-.pricing-card p {
-    color: #888;
-    font-size: 0.75rem;
-    font-weight: 600;
+    flex: 1;
 }
 
 .pricing-card h3 {
@@ -195,27 +193,71 @@ nav ul li a {
     font-weight: 700;
     color: #0D1B2A;
 }
-
 .pricing-card p {
-    color: #575757;
-    font-size: 0.875rem;
+    color: #888;
+    font-size: 0.75rem;
     font-weight: 500;
-} 
+}
 
 .pricing-card hr {
-    margin: 20px 0;
+    margin: 25px 0;
     border: 1px solid #d1d5db;
 }
 
-.pricing-card ul li {
-    color: #575757;
-    font-size: 0.875rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+.pricing-card ul {
+    padding: 0;
 }
 
+.pricing-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #575757;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.pricing-card ul li i {
+    color: #2563EB;
+    font-size: 6px;
+}
 .pricing-card button {
     margin-top: 20px;
+    width: 100%;
+}
+
+/* pro card */
+.pro-card {
+    background-color: #0D1B2A;
+}
+
+.pro-card .pro-txt {
+    color: #2563EB;
+}
+
+.pro-card h3 {
+    color: white;
+}
+ 
+.pro-hr {
+    color: #142c46;
+    /* color: #000 !important; */
+}
+.pro-card ul li {
+    color: #d9dadb;
+}
+
+/* team card */
+
+.team-card {
+    background-color: #F8F9FB;
+}
+
+.team-card button {
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
 }
 
 
