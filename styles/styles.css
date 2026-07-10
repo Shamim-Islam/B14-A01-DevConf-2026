@@ -260,4 +260,46 @@ nav ul li a {
     color: #0D1B2A;
 }
 
+/* footer  */
+.footer {
+    padding: 40px 0;
+    background-color: #0D1B2A;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3 {
+    font-size: 1.5rem;
+    color: #0D1B2A;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #575757;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #3B82F6;
+}
+
+.footer hr {
+    margin: 25px 0;
+    border: 1px solid #d1d5db;
+}
+
+.copyright {
+    text-align: center;
+    color: #575757;
+    font-size: 0.875rem;
+}
 
