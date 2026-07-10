@@ -241,10 +241,10 @@ nav ul li a {
     color: white;
 }
  
-.pro-hr {
-    color: #142c46;
-    /* color: #000 !important; */
+.pro-card hr {
+    border: 1px solid #16314e;
 }
+
 .pro-card ul li {
     color: #d9dadb;
 }
