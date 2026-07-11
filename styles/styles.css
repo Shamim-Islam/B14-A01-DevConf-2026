@@ -91,12 +91,12 @@ nav ul li a {
 }
 
 .banner-content {
-  max-width: 60%;
+  /* max-width: 60%; */
   color: white;
 }
 
 .banner-content h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -108,7 +108,9 @@ nav ul li a {
 }
 
 .banner-content button {
-  margin-top: 150px;
+  margin-top: 300px;
+  padding: 15px 35px;
+  font-size: 18px;
 }
 
 /* Speakers section */
